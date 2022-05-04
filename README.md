@@ -52,7 +52,14 @@ https://www.sparkfun.com/products/9564
 
 https://4dsystems.com.au/ulcd-144-g2
 
+##### H-Bridge Motor Driver
+
+<img src="https://cdn.sparkfun.com//assets/parts/1/2/4/8/4/14451-01.jpg" width="300">
+<img src="/assets/images/Pinouts/hbridge.png" width="200">
+
+
 ##### Capacitive Touchpad
+
 
 <img src="https://cdn.sparkfun.com//assets/parts/4/6/0/2/10250-01.jpg" width="300">
 <img src="/assets/images/Pinouts/touchpad.png" width="200">
