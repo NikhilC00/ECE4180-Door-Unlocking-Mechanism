@@ -8,13 +8,20 @@ Team Members: Audrey Ahlenius and Nikhil Chittaluru
 
 **Solution**: A product that will unlock your door via bluetooth or a touch pad
 
-(FULL IMAGE HERE)
+<img src="/assets/images/door_front.jpg" width="300" height="579"> <img src="/assets/images/door_back.jpg" width="300" height="579">
+
+
 
 ## Hardware
 
 Below is all the hardware for the project
 
-(FULL HARDWARE IMAGE HERE)
+<img src="/assets/images/full_model.jpg" width="300" height="400">
+<img src="/assets/images/board.jpg" width="300" height="400">
+<img src="/assets/images/touchpad.jpg" width="300" height="400">
+<img src="/assets/images/motor.jpg" width="300" height="400">
+<img src="/assets/images/side_model.jpg" width="300" height="400">
+
 
 #### Door Mount
 
@@ -22,7 +29,8 @@ This is the hardware for mounting our device to the door frame. It fits around t
 
 See the `/assets/cad` file to find all the STEP files for the components fo the door mount. Each plate was cut from 0.125" birch wood using a laser cutter. The other components were made using a 3D printer.
 
-(SIDE BY SIDE IMAGE HERE)
+<img src="/assets/images/Full_CAD_Model.png" width="500" height="359">
+
 
 #### Electronics Parts List
 
@@ -39,7 +47,8 @@ See the `/assets/cad` file to find all the STEP files for the components fo the 
 
 The software has two threads and two interrupts. Overall, it checks when a user submits a passcode. If the passcode is correct, it runs an open-door sequence. If the passcode is wrong, it tells the user using the LCD screen.
 
-(SOFTWARE FLOWCHART IMAGE HERE)
+![This is an image](/assets/images/Software_Diagram.png)
+
 
 **Threads**:
 
@@ -55,7 +64,18 @@ The software has two threads and two interrupts. Overall, it checks when a user 
 
 ### Results and Future Work
 
-The door is unlocked through a password entered via Bluetooth or on the Touchpad so we met the project goals!
+The door is unlocked through a password entered via Bluetooth or on the Touchpad so we met the project goals! See the video demos below:
+
+###### Demo: Outside the Door
+![This is an image](https://www.youtube.com/watch?v=1BmhXal_50E&ab_channel=AudreyAhlenius)
+
+###### Demo: Inside the Door
+![This is an image](https://youtube.com/shorts/F9PI_cVdQdg?feature=share)
+
+###### Demo: Bluetooth Password Input
+![This is an image](https://youtube.com/shorts/ofLp8rDiyAs?feature=share)
+
+
 
 **Potential Improvements:**:
 
